@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+html, body{
+    font-family: 'Press Start 2P', sans-serif;
+    color: #fff;  
+    background-color: lightsalmon;
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    width: 900px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 100px;
+}
+
+.scores {
+    margin: 20px;
+}
+
+input{
+    padding: 0px;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 50px;
+    background: none;
+    border: none;
+    text-align: center;
+    outline: none;
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    height: auto;
+}
+
+.difficulty {
+    padding: 20px;
+    display: inline-block;
+    border: 3px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#lifeHolder {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+}
+
+.difficulty:hover {
+    border: 3px solid white;
+    background-color: #333;
+}
+
+.chosen {
+    border: 3px solid white;
+    background-color: #333;
+}
+
+button {
+    padding: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: 'Press Start 2P', sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+#again {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    font-size: 100px;
+    display: none;
+}
+
+#timerHolder {
+    padding-left: 20px;
+}
+
+#startGame {
+    position: absolute;
+    margin: auto;
+    bottom: 100px;
+    left: 0px;
+    right: 0px;
+    outline: 0px;
+    border: 0px;
+    cursor: pointer;
+}

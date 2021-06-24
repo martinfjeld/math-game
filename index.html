@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Math Game!
+        </title>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="scores">
+            <p class="smallParagraph">Score: <span id="score">0</span></p>
+            <p class="smallParagraph">Highscore: <span id="highscore">0</span></p>
+        </div>
+        <p id="timerHolder">Time: 00:<span id="timer">10</span></p>
+        <p id="lifeHolder">Life:<span id="life">3</span></p>
+        <main>
+            <button id="startGame">New Game</button> 
+            <h1>Chose difficulity:</h1>
+            <div id="calculation">
+            </div>
+            <input id="userInput" autocomplete="false">
+           <div id="chooseDifficulty">
+                <div class="difficulty" id="easy">EASY</div>
+                <div class="difficulty" id="medium">MEDIUM</div>
+                <div class="difficulty" id="hard">HARD</div>
+            </div>
+        </main>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
